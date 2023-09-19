@@ -1,0 +1,410 @@
+@media screen and (max-width:992px) {
+    .my_container{
+        padding: 0 25px;
+    }
+    .my_h2{
+        font-size: 36px;
+    }
+    .my_h3{
+        font-size: 22px;
+    }
+    .my_p{
+        font-size: 16px;
+    }
+    .my_btn{
+        font-size: 20px;
+    }
+    /*  */
+    .header__logo1 {
+        font-size: 30px;
+    }
+    .header__nav {
+        max-width: 415px;
+    }
+    .header__nav a{
+        font-size: 16px;
+    }
+    .header__btn {
+        font-size: 16px;
+        padding: 12px 43px;
+    }
+    /*  */
+    .Start__h1 {
+        font-size: 44px;
+        line-height: 64px; /* 125% */
+    }
+    .Start__p {
+        max-width: 526px;
+        font-size: 20px;
+    }
+    .Start__btn {
+        padding: 22px 78px;
+    }
+    .Start__img{
+        height: 460px;
+    }
+    /*  */
+    .Skills__item .my_p{
+        font-size: 14px;
+    }
+    .Skills__btn{
+        font-size: 18px;
+        padding:15px 41px;
+    }
+    .Micro{
+        align-items: center;
+    }
+    /*  */
+    .About-Us__grid {
+        gap: 70px;
+    }
+    .About-Us__item, .Contact-Us__item {
+        max-width: 530px;
+    }
+    /*  */
+    .Contact-Us__btn {
+        font-size: 16px;
+        padding: 18px 56px;
+        margin-left: 0;
+    }
+    .Contact-Us__email {
+        padding: 10px 33px;
+    }
+    .Contact-Us__grid {
+        gap: 10px;
+    }
+    .Contact-Us__item img{
+        height: 100%;
+    }
+    .Contact-Us__form {
+        flex-direction: column; 
+    }   
+    /*  */
+    .footer__p a, .footer__p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:767px) {
+    .my_h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .my_h3{
+        line-height: 28px; /* 140% */
+        font-size: 20px;
+    }
+    .my_p{
+        font-size: 13px;
+    }
+    .my_btn{
+        font-size: 14px;
+    }
+    /*  */
+    .header__logo1 {
+        font-size: 30px;
+    }
+    .header__nav {
+        max-width: 415px;
+    }
+    .header__nav a{
+        font-size: 16px;
+    }
+    .header__btn {
+        font-size: 16px;
+        padding: 12px 43px;
+    }
+    .header_inv{
+        display: none;
+    }
+    .header__burger-btn{
+        display: block;
+    }
+    /*  */
+    .Start__h1{
+        font-size: 36px;
+        min-width: 217px;
+        line-height: 45px; /* 125% */
+    }
+    .Start__p {
+        font-size: 16px;
+        padding: 25px 0 32px;
+    }
+    .Start__btn{
+        padding: 18px 67px;
+    }
+    .Start__img{
+        height: 350px;
+    }
+    .Start__title img{
+        height: 80px;
+    }
+    .Start__title{
+        align-items: end;
+    }
+    .Micro .Skills__item-img, .Write .Skills__item-img{
+        margin: 0;
+    }
+    .Skills__btn{
+        font-size: 13px;
+        padding:13px 42px;
+        border-radius: 5px;
+        max-width: 178px;
+        max-height: 50px;
+    }
+    .About-Us__p {
+        padding: 5px 0 10px;
+    }
+    .Pricing__money {
+        font-size: 22px;
+    }
+    .Pricing__text{
+        font-size: 16px;
+    }
+    .Pricing__img3 {
+         margin-left: 0;
+    }
+    .Pricing__item .my_p{
+        padding-top: 10px;
+    }
+    /*  */
+    .Contact-Us__grid {
+        align-items: end;
+    }
+    .Contact-Us{
+        max-height: 223px;
+    }
+    .Contact-Us__item .my_p {
+        padding: 5px 0 25px;
+    }
+    .Contact-Us__item img{
+        max-height: 233px;
+    }
+    /*  */
+    .footer {
+        padding: 140px 0 65px;
+    }
+        .Pricing {
+        padding: 90px 0 70px;
+    }
+}
+@media screen and (max-width:575px) {
+    .my_h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .my_h3{
+        line-height: 28px; /* 140% */
+        font-size: 20px;
+    }
+    .my_p{
+        font-size: 13px;
+    }
+    .my_btn{
+        font-size: 14px;
+    }
+    /*  */
+    
+    .header {
+        padding: 40px 0 0;
+    }
+    .Start__grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0;
+    }
+    .Start__title img{
+        display: none;
+    }
+    .Start__item-ord1{order: 2;}
+    .Start__item-ord2{order: 1;}
+    .Start__img{
+        height: 100%;
+    }
+    .Start__h1{
+        font-size: 34px;
+        width: 100%;
+    }
+    .Start__p {
+        font-size: 16px;
+        padding: 25px 0 32px;
+    }
+    .Start__btn{
+        padding: 18px 67px;
+    }
+    .Start__br{
+        display: none;
+    }
+    .Start__btn{
+        padding: 24px 101px;
+        font-size: 16px;
+    }
+    /*  */
+    .Skills__grid {
+        grid-template-areas: 
+        "one two"
+        "three four";
+        align-items: start;
+        justify-content: center;
+    }
+    .bro{ grid-area: one;}
+    .Write{grid-area: two;}
+    .bookshelves{grid-area: three;}
+    .Micro {
+        grid-area: four;
+        flex-direction: column;
+    }
+    .Micro .Skills__item-img {order: 0;}
+    .bookshelves .Skills__btn{
+        margin-top: 135px;
+    }
+    .Micro .Skills__btn{
+        margin-top: 135px;
+    }
+    .Skills__item{
+        height: 100%;
+        padding-top: 30px;
+    }
+    .Skills__item-text{
+        padding-left: 12px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .Skills__item-text .my_p{
+        font-size: 13px;
+    }
+    /*  */
+    .About-Us__grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        align-items: center;
+    }
+    .About-Us__img{
+        order: 0;
+    }
+    .About-Us__ord1{
+        order: 1;
+    }
+    .About-Us__p, .About-Us .my_h2{
+        text-align: center;
+    }
+    .About-Us__flex{
+        justify-content: space-around;
+    }
+    /*  */
+    .Pricing {
+        padding: 130px 0 150px;
+    }
+    .Pricing__grid {
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .Pricing__item{
+        max-width: 418px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Pricing__item .my_p, .Pricing__item .my_h3{
+        text-align: center;
+    }
+    .Pricing__title{
+        justify-content: center;
+    }
+    .Pricing__title1, .Pricing__title2, .Pricing__title3{
+        padding-top: 29px;
+    }
+    .Pricing__img1, .Pricing__img2, .Pricing__img3{
+        margin-left: 0;
+        padding-bottom: 0;
+    }
+    /*  */
+    .Contact-Us{
+        padding-bottom: 100px;
+    }
+    .Contact-Us__grid {
+        justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+    .Contact-Us__h2{
+        display: block;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Contact-Us__item .my_h2{
+        display: none;
+    }
+    .Contact-Us__item .my_p{
+        font-size: 16px;
+        max-width: 481px;
+        text-align: center;
+    }
+    .Contact-Us{
+        max-height: 800px;
+    }
+    .Contact-Us__form{
+        flex-direction: row;
+    }
+    .footer__p a, .footer__p{
+        font-size: 13px;
+    }
+    .footer__p{
+        margin-left: 20px;
+    }
+    .Skills {
+        padding: 75px 0 150px;
+    }
+    .Pricing {
+        padding: 130px 0 75px;
+    }
+    .footer {
+        padding: 30px 0 65px;
+    }
+    .Contact-Us__form {
+        align-items: center;
+        flex-direction: row;
+    }
+    .Skills__btn_flex{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:465px) {
+    .Contact-Us__form {
+        flex-direction: column;
+    }
+    .Skills__btn {
+        font-size: 13px;
+        padding: 12px 35px;
+    }
+}
+@media screen and (max-width:375px) {
+    .Skills__grid {
+        gap: 30px;
+        grid-template-areas:
+            "one" 
+            "two"
+            "three" 
+            "four";
+        }
+        .Skills__btn_flex{
+            display: flex;
+            justify-content: center;
+        }
+        .Start__btn{
+            padding: 18px 79px;
+        }
+        .bookshelves .Skills__btn, .Micro .Skills__btn {
+            margin-top: 0;
+        }
+        .Skills {
+            padding: 150px 0 150px;
+        }
+        .footer {
+            padding: 30px 0 65px;
+        }
+}
+
